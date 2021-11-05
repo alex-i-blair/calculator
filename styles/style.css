@@ -111,3 +111,7 @@ footer {
     }
 
   }
+
+  .math-buttons {
+      display: flexbox;
+  }
