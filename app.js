@@ -1,5 +1,5 @@
 // import functions and grab DOM elements
-import { add, subtract, multiply, divide } from './math-utils.js';
+import { add, subtract, multiply, divide, exp } from './math-utils.js';
 // initialize global state
 
 // set event listeners 
@@ -29,3 +29,4 @@ setupOperation('add', add);
 setupOperation('subtract', subtract);
 setupOperation('multiply', multiply);
 setupOperation('divide', divide);
+setupOperation('exp', exp);
